@@ -93,7 +93,7 @@ class Notes extends CI_Controller
 				redirect('Notes');
 			}
 			else{
-				echo "Nital🤣🤣🤣";
+				echo "error ";
 			}
 
 			}
