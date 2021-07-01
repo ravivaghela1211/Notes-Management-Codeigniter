@@ -1,0 +1,258 @@
+body{
+    font-family: 'Slabo 27px', serif;  
+}
+h1{
+    color: #fff;
+    
+}
+
+/*Title Section*/
+#title{
+    
+    background-color: #ff4c68/*#41B3A3*/;
+    
+   
+}
+.container-fluid{
+    padding: 3% 15% 7%;
+    
+}
+.navbar{
+    padding:  0 0 4.5rem;
+    
+       
+}
+.navbar-brand{
+    
+    font-size: 3.4rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+   
+}
+.nav-link{
+    font-size: 1.8rem;
+  
+}
+
+.dropdown .dropdown-menu a{color: #000;}
+
+.nav-link:hover{
+    background-color:  #41B3A3;
+    border-radius: 10px;
+  
+}
+.navbar a {
+    color: #fff;
+}
+
+.navbar-toggler{
+    background-color: #fff;
+
+}
+
+
+
+/*Button css */
+.heading-button{
+    margin:5% 3% 5% 0;
+    font-size: 1.6rem;
+}
+
+
+/*Title Image*/
+.title-image{
+    
+    width:59%;
+    transform: rotate(-30deg); 
+    position: absolute;
+    left: 35%;
+}
+
+
+/*fetures section*/
+#features{
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.feature-box{
+    font-size: 20px;
+    text-align: center;
+    
+    padding: 5%;
+}
+.icon{
+    color:#ef8172;
+    padding-bottom: 1rem;
+}
+
+.icon:hover{
+   color: #41B3A3;
+}
+
+
+/*review  section*/
+#review{
+    background-color: #ff4c68;;
+   
+    text-align: center;
+    color: #fff;
+}
+.review-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+
+
+/*Footer Section*/
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    font-size: 30px;
+}
+.social-icon{
+    margin: 20px 10px;
+    
+}
+/*login section*/
+#login{
+    padding: 7% 30%;
+    font-size: 20px;
+   
+    background-color: #fff;
+   
+}
+
+.login-heading{
+        text-align: center;
+        
+    }
+.error-msg{
+    color:red; font-size: 17px;
+}
+        
+/*notes  card */
+.notes-heading{
+    color: #000; padding-left: 40%; margin-bottom: 20px;
+}
+.data{
+    margin-bottom: 30px;
+}
+
+#notes{
+    padding: 5% 15%;
+    font-size: 30px;
+    background-color: #fff;
+   
+}
+
+.action:hover{
+    background-color: #41B3A3;
+    border-radius: 5px;
+}
+.card{
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+}
+.card-title{
+    font-size: x-large;
+}
+.card-text{
+    font-size: large;
+}
+
+.action{
+    font-size: 15px;
+    padding: 5px;
+    color: #000;
+}
+
+
+
+/*Admin*/
+/*Dashboard*/
+#dashboard{
+    padding: 7% 15%;
+}
+.infocard{
+    max-width: 18rem;
+    margin: 10px;
+}
+
+
+
+#user-table{
+    padding: 7% 15%;
+}
+.delete-user:hover{
+    background-color: #41B3A3;
+    border-radius: 5px;
+}
+
+
+
+/*Responsive*/
+@media (max-width: 1028px) {
+    .alert-success,.alert-danger{
+        font-size: 14px; 
+    }
+    h1{
+        font-size: 30px;
+        
+    }
+    .mobile-div{
+        width: 100%;
+    }
+    .data{
+        margin-bottom: 2px;
+    }
+    .error-msg{
+        color:red; font-size: 14px;
+    
+    }
+    #user-table{
+        padding: 7% 10%;
+    }
+   .notes-heading{
+       padding-left: 30%;
+   }
+    .card{
+        margin-bottom: 15px;
+        float: left;
+    }
+    #emailHelp{
+        font-size: 15px;
+    }
+    #forgotpassword{
+        font-size: 18px;
+    }
+    #notes{
+        padding: 7% 11%; 
+    }
+    #login{
+        padding: 7% 15%;
+        font-size: 25px;
+    }
+
+    #title{
+        text-align: center;
+    }
+
+    .login-heading{
+        
+        text-align: center;
+        
+    }
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+}
